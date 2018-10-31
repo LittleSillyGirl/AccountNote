@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer-array name="int_main_tab">
+        <item>@drawable/selector_main_tab_home</item>
+        <item>@drawable/selector_main_tab_my_account</item>
+        <item>@drawable/selector_main_tab_mine</item>
+    </integer-array>
+
+
+    <string-array name="text_main_tab">
+        <item>我的记账</item>
+        <item>我的账单</item>
+        <item>个人中心</item>
+    </string-array>
+
+    <string-array name="text_mine_desc">
+        <item>记一笔</item>
+        <item>计划设置</item>
+        <item>个人信息</item>
+        <item>修改密码</item>
+        <item>关于App</item>
+    </string-array>
+    <string-array name="int_mine_desc">
+        <item>@mipmap/ic_jyb</item>
+        <item>@mipmap/ic_jhsz</item>
+        <item>@mipmap/ic_person_info</item>
+        <item>@mipmap/ic_update_pwd</item>
+        <item>@mipmap/ic_about_app</item>
+    </string-array>
+
+</resources>

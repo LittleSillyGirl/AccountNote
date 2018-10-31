@@ -35,6 +35,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.id_tv_forget_pwd:
+                mLoginController.toForgetPwd();
                 break;
             case R.id.id_btn_login:
                 String userAccount = idEtUserName.getText().toString().trim();
@@ -44,7 +45,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
                 }
                 String usePwd = idEtUserPwd.getText().toString().trim();
                 if (TextUtils.isEmpty(usePwd)) {
-                    ToastUtil.showToastShort("用户明码不能为空!!!");
+                    ToastUtil.showToastShort("用户密码不能为空!!!");
                     return;
                 }
 
@@ -52,6 +53,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
 
                 break;
             case R.id.id_btn_register:
+                mLoginController.toRegister();
                 break;
         }
     }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tb_gray2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/style_ll_home">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_income_user" />
+
+        <TextView
+            android:id="@+id/id_tv_remain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center|left"
+            android:text="余额：￥ 10000"
+            android:textColor="@color/home_remain"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout style="@style/style_ll_home">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_type_income" />
+
+        <TextView
+            android:id="@+id/id_tv_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center|left"
+            android:text="收入：￥ 10000"
+            android:textColor="@color/home_income"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/style_ll_home">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_type_cost" />
+
+        <TextView
+            android:id="@+id/id_tv_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center|left"
+            android:text="余额：￥ 10000"
+            android:textColor="@color/home_cost"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

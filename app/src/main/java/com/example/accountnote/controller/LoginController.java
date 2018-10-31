@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.example.accountnote.Constanse;
+import com.example.accountnote.activity.ForgetPwdActivity;
 import com.example.accountnote.activity.MainActivity;
+import com.example.accountnote.activity.RegisterActivity;
 import com.example.accountnote.base.BaseActivity;
 import com.example.accountnote.base.BaseController;
 import com.example.accountnote.model.bean.UserBean;
@@ -61,7 +63,7 @@ public class LoginController extends BaseController {
                     });
                 }
             }
-        };
+        }.start();
     }
 
     /**
@@ -74,5 +76,22 @@ public class LoginController extends BaseController {
         SPUtil.getInstanse().setParam(Constanse.USER_INFO, userInfo);
         mActivity.startActivity(new Intent(mContext, MainActivity.class));
         mActivity.finish();
+    }
+
+    /**
+     * 进入注册界面
+     *
+     */
+    public void toRegister(){
+        mActivity.startActivity(new Intent(mContext, RegisterActivity.class));
+    }
+
+
+    /**
+     * 进入忘记密码的界面
+     *
+     */
+    public void toForgetPwd(){
+        mActivity.startActivity(new Intent(mContext, ForgetPwdActivity.class));
     }
 }

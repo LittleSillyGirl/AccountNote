@@ -36,6 +36,7 @@ public class SpalshController extends BaseController {
                 } else {
                     mActivity.startActivity(new Intent(mContext, MainActivity.class));
                 }
+                mActivity.finish();
             }
         }, 3000);
     }

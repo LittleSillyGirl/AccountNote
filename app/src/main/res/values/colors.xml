@@ -10,4 +10,13 @@
     <color name="white">#ffffff</color>
     <color name="gainsboro">#dcdcdc</color><!--淡灰色 -->
     <color name="text_black_light">#999999</color>
+
+    <color name="grey">#808080</color><!--灰色 -->
+    <color name="wheat">#f5deb3</color><!--浅黄色 -->
+    <color name="gray_cc">#cccccc</color><!--灰色cc -->
+    <color name="tb_gray2">#f1f1ef</color>
+    <color name="tb_gray3">#777777</color>
+    <color name="home_income">#91d7e3</color>
+    <color name="home_remain">#ff90b9</color>
+    <color name="home_cost">#ff8976</color>
 </resources>
