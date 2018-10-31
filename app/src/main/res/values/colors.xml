@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--app的主色-->
+    <color name="commonColor">#ef784e</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gainsboro">#dcdcdc</color><!--淡灰色 -->
+    <color name="text_black_light">#999999</color>
+</resources>
