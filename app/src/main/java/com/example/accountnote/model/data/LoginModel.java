@@ -11,7 +11,6 @@ import com.example.accountnote.model.bean.UserBean;
 
 
 /**
- * Created by boys on 2018/10/31.
  */
 
 public class LoginModel extends BaseModel {

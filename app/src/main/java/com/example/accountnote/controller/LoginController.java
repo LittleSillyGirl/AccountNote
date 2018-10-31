@@ -16,7 +16,6 @@ import com.example.accountnote.view.LoginView;
 import com.google.gson.Gson;
 
 /**
- * Created by boys on 2018/10/31.
  */
 
 public class LoginController extends BaseController {

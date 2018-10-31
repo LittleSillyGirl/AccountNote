@@ -1,7 +1,6 @@
 package com.example.accountnote;
 
 /**
- * Created by boys on 2018/10/31.
  */
 
 public class Constanse {

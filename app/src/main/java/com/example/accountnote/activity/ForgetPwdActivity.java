@@ -47,7 +47,7 @@ public class ForgetPwdActivity extends BaseActivity implements View.OnClickListe
                     ToastUtil.showToastShort("用户名不能为空!!!");
                     return;
                 }
-                String usePwd = idEtUserPwdHelp.getText().toString().trim();
+                String usePwd = idEtUserNewPwd.getText().toString().trim();
                 if (TextUtils.isEmpty(usePwd)) {
                     ToastUtil.showToastShort("用户名密码不能为空!!!");
                     return;

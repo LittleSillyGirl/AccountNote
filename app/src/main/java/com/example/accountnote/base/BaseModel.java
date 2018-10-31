@@ -6,7 +6,6 @@ import android.database.sqlite.SQLiteDatabase;
 import com.example.accountnote.db.MySqliteHelper;
 
 /**
- * Created by boys on 2018/10/31.
  */
 
 public abstract class BaseModel {

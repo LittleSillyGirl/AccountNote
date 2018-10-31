@@ -6,7 +6,6 @@ import com.example.accountnote.util.SPUtil;
 import com.example.accountnote.util.ToastUtil;
 
 /**
- * Created by boys on 2018/10/31.
  */
 
 public class MyApp extends Application {

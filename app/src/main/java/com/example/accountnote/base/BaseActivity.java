@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 /**
- * Created by boys on 2018/10/31.
  */
 
 public abstract class BaseActivity extends AppCompatActivity{
